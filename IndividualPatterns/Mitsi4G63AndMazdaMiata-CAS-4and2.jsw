@@ -1,0 +1,29 @@
+
+// Wheel ?
+//
+// DSM/Miata/MX-5/4G63 CAS 4/2
+//
+// Note, the width of the small inner slot is currently set to 69 degrees and
+// this has not been checked against a real sensor setup. Mitsubishi docs say
+// 80 degrees, but I'm 99% certain that that is wrong.
+01,35,  // E?
+01,34,  // 
+00,48,  // E?
+00,48,  // 
+10,15,  // E?
+11,54,  // E?
+01,15,  // E?
+00,56,  // E?
+00,55,  // 
+01,35,  // E?
+01,34,  // 
+00,48,  // E?
+00,48,  // 
+10,15,  // E? Inner start
+11,35,  // E? Outer within inner start
+11,34,  // 
+10,56,  // E? Outer within inner finish
+00,55,  // E? Inner finish
+0xff
+// ############################################################################
+

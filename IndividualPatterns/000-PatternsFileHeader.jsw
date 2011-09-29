@@ -1,0 +1,22 @@
+// JimStim Patterns For FreeEMS
+//
+// Patterns included in here are either supported or under development.
+//
+// Note, this file can contain a fairly large number of patterns. The are read
+// in order, however there is a gap at the 16th position ("Wheel 15"). This one
+// enables the serial port for MegaTunix manipulation or pattern file loading.
+//
+// Two binary bits lead, with values 00, 01, 10, 11, then the 1-63 angle value.
+// The two bits are used for the intended state for that angular duration and
+// the angle specification determines how long they stay that way until the
+// next specified state.
+//
+// Note, maximum angle specification is 63 degrees. These angles are scaled
+// appropriately to produce a pattern with the correct RPM.
+//
+// All patterns are used with both channels inverted in JimStim PC settings.
+//
+// Dip switch usage can only access patterns 0 - 15
+//
+// NOTE: Currently this is 5 patterns repeated 9 times.
+
