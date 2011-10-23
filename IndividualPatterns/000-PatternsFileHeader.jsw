@@ -14,9 +14,6 @@
 // Note, maximum angle specification is 63 degrees. These angles are scaled
 // appropriately to produce a pattern with the correct RPM.
 //
-// All patterns are used with both channels inverted in JimStim PC settings.
-//
-// Dip switch usage can only access patterns 0 - 15
-//
-// NOTE: Currently this is 5 patterns repeated 9 times.
+// All patterns are used with both channels inverted or uninverted in JimStim
+// PC settings, depending upon your hardware configuration.
 
