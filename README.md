@@ -1,5 +1,20 @@
 ### JimStim Pattern File Library
 
+# This repository is now UNMAINTAINED!!!
+
+The JimStim was found to be unreliable and cost me excessive time with stupid
+issues. Mine and at least two other units bricked themselves due to serial
+comms using the specified API. No binary firmware download is available and the
+two dollar CPU costs 10USD plus postage and packing. NEVER again will I use the
+JimStim, period. I've written my own code that runs on [FreeEMS][f] hardware and
+provides the standard missing tooth, even tooth + sync and distributor style
+outputs. I use this extensively. See the following link for a demonstration of
+the power of [FreeEMS][f]!
+
+http://www.youtube.com/watch?v=CIjvVGdKxgk
+
+### Original README.md content:
+
 This repository is for storing [JimStim][j] jsw pattern files in and tracking
 updates to the default set of patterns as provided by [jbperf.com][p]. The
 [jbperf.com][p] file is in a directory called OtherPatternFiles and will be
